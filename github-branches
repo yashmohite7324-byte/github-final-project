@@ -1,0 +1,4 @@
+$ git branch -vv
+* bug-fix-revert 7327637 [origin/bug-fix-revert] Revert "Fix typo"
+  bug-fix-typo   cb63d86 [origin/bug-fix-typo] Fix typo
+  main           cb63d86 [origin/main: ahead 1] Fix typo
