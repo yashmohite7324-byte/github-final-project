@@ -1,3 +1,21 @@
-curl -s https://api.github.com/repos/yashmohite7324-byte/mcino-Introduction-to-Git-and-GitHub | jq -r '.parent.clone_url'
+curl -s https://api.github.com/repos/yashmohite7324-byte/mcino-Introduction-to-Git-and-GitHub
 
-https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git
+{
+  "name": "mcino-Introduction-to-Git-and-GitHub",
+  "full_name": "yashmohite7324-byte/mcino-Introduction-to-Git-and-GitHub",
+  "fork": true,
+  "html_url": "https://github.com/yashmohite7324-byte/mcino-Introduction-to-Git-and-GitHub",
+  "clone_url": "https://github.com/yashmohite7324-byte/mcino-Introduction-to-Git-and-GitHub.git",
+  "parent": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "clone_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git"
+  },
+  "source": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
+    "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "html_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub",
+    "clone_url": "https://github.com/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub.git"
+  }
+}

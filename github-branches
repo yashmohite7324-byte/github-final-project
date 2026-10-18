@@ -1,4 +1,13 @@
 $ git branch -vv
-* bug-fix-revert 7327637 [origin/bug-fix-revert] Revert "Fix typo"
-  bug-fix-typo   cb63d86 [origin/bug-fix-typo] Fix typo
-  main           cb63d86 [origin/main: ahead 1] Fix typo
+* bug-fix-revert 7327637 [origin/bug-fix-revert] Revert "Fix typo in README footer"
+  bug-fix-typo   cb63d86 [origin/bug-fix-typo] Fix typo in README footer
+  main           cb63d86 [origin/main: ahead 1] Fix typo in README footer
+
+$ git branch -a
+* bug-fix-revert
+  bug-fix-typo
+  main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/bug-fix-revert
